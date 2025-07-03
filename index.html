@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/imgs/logo@2x.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <title>Weather</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">
+          <img src="./imgs/logo@2x.png" class="w-25 pe-2" alt="">
+          weather
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse ms-auto"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Livecameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">contact</a>
+            </li>
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="weather pt-5">
+        <div class="container weather-body">
+          <div
+            class="search d-flex align-items-center justify-content-between w-75 position-relative"
+          >
+            <input
+              type="text"
+              class="form-control p-3"
+              placeholder="Find Your🔍 Location"
+              id="searchWeather"
+            />
+            <button class="find-btn btn btn-primary position-absolute end-0" id="findData">
+              Find
+            </button>
+          </div>
+          <div class="cards p-5">
+            <div class="row" id="rowData">
+              <!-- <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                    <p class="day">Thursday</p>
+                    <p class="date">3July</p>
+                  </div>
+                  <div class="card-body">
+                    <h3 class="city">Alex</h3>
+                    <div
+                      class="degree d-flex justify-content-between align-items-center"
+                    >
+                      <h2 class="fs-1 fw-bold">26^C</h2>
+                      <img src="/imgs/113.png" alt="" />
+                    </div>
+                    <h4 class="sl pt-4">sunny</h4>
+                  </div>
+                  <div class="card-footer pt-3">
+                    <div class="otherInformation d-flex align-items-center">
+                      <div class="info d-flex">
+                        <div class="infoT d-flex">
+                          <img
+                            src="/imgs/icon-umberella@2x.png"
+                            class="w-25"
+                            alt="icon-umberella"
+                          />
+                          <small class="ps-2">20%</small>
+                        </div>
+                        <div class="infoT d-flex">
+                          <img
+                            src="/imgs/icon-wind@2x.png"
+                            class="w-25"
+                            alt="icon-umberella"
+                          />
+                          <small class="ps-2">18km/h</small>
+                        </div>
+                        <div class="infoT d-flex">
+                          <img
+                            src="/imgs/icon-compass@2x.png"
+                            class="w-25"
+                            alt="icon-umberella"
+                          />
+                          <small class="ps-2 text-capitalize">east</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

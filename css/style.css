@@ -1,0 +1,76 @@
+body {
+  color: white;
+}
+.bg-main {
+  background-color: #323544;
+}
+
+.bg-secondary {
+  background-color: #262936;
+}
+nav {
+  padding: 50px !important;
+  background-color: #1e202b !important;
+}
+
+input {
+  background-color: #1e202b !important;
+  padding: 20px 50px 20px 20px !important;
+  border: none !important;
+  color: white !important;
+}
+input::placeholder {
+  color: #4b6975 !important;
+}
+/* input:focus{
+   
+} */
+
+.find-btn {
+  padding: 0 40px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 30px;
+}
+
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../imgs/banner.png);
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .card-header {
+  background-color: #2d303d;
+}
+
+.custom-card {
+  border-radius: 16px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+}
+
+.custom-card h2 {
+  font-size: 2.2rem;
+}
+
+.custom-card h5 {
+  margin-bottom: 10px;
+}
+
+.custom-card p {
+  margin-bottom: 4px;
+}
+
+.form-control {
+  background-color: #1e202b;
+  color: white;
+  border: 1px solid #555;
+}
+
+.form-control::placeholder {
+  color: #aaa;
+}
